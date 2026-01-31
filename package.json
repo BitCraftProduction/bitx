@@ -1,0 +1,30 @@
+{
+  "name": "@bitxdev/bitx",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "A minimal static UI language compiling to pure HTML",
+  "main": "dist/index.js",
+  "bin": {
+    "bitx": "bin/bitx.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "main": "node bin/bitx.js build main.bitx"
+  },
+  "keywords": [
+    "bitx",
+    "compiler",
+    "static-site-generator",
+    "declarative-ui"
+  ],
+  "author": "BitCraft Production",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {}
+}

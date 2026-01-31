@@ -1,0 +1,12 @@
+Page {
+  Column {
+    Text("Hello BitX")
+    Link("Visit Study Friend", "https://studyfriend.me")
+    Text("Hi, I am Ganesh Kumar")
+    Text("Thank God It worked")
+    Row {
+      Text("Nested Row Item 1")
+      Text("Nested Row Item 2")
+    }
+  }
+}

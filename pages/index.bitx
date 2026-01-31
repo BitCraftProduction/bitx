@@ -1,0 +1,13 @@
+App {
+  Page {
+    Column {
+      Text("Hello BitX")
+      Text("Static. Fast. Simple.")
+      
+      Row {
+         Button("Get Started")
+         Link("Read Docs", "/docs")
+      }
+    }
+  }
+}
