@@ -14,6 +14,10 @@
     "prepublishOnly": "npm run build",
     "main": "node bin/bitx.js build main.bitx"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitCraftProduction/bitx.git"
+  },
   "keywords": [
     "bitx",
     "compiler",
